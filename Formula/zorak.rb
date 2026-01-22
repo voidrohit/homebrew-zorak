@@ -5,7 +5,7 @@ class Zorak < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/voidrohit/zorak/releases/download/v0.1.0/zorak-Darwin-arm64.tar.gz"
+      url "https://github.com/voidrohit/zorak/releases/download/v0.0.1/zorak-Darwin-arm64.tar.gz"
       sha256 "444ac4a2c8eb48fbee3838a5587d67dfaa66f48f61f81d5694052261cae1cb2a"
     else
       url "https://github.com/voidrohit/zorak/releases/download/v0.1.0/zorak-Darwin-x86_64.tar.gz"
